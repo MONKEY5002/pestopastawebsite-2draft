@@ -1,0 +1,269 @@
+
+html{
+  scroll-behavior: smooth;}
+
+body{ 
+    background-color: #393f24;
+}
+body::selection{ background-color:#eca2e5;
+    color: rgb(30, 25, 67);
+
+}
+   
+h1{ 
+  font-family: "Plus Jakarta Sans", sans-serif;
+  font-size: 50px;
+  text-align: center;
+  color:rgb(250, 223, 184);
+  letter-spacing: 1px;
+  line-height: 60.5px;
+}
+.pto{ font-size: 80px;
+color: rgb(228, 238, 167);
+font-style: oblique;
+}
+
+.twenty{ text-align: center;
+color: rgb(255, 114, 114);
+font-size: 22px;
+font-family: "Plus Jakarta Sans", sans-serif;
+}
+
+
+.pto:hover{ color: #6284ff;
+  font-size: 90px;
+  transition: 2s;
+  letter-spacing: 4.5cap;
+
+
+}
+
+.title{font-size: 20px;
+  color:rgb(221, 191, 135);
+}
+
+
+.intro{
+text-align: center;
+color: beige;
+font-size: 10px;}
+
+
+.intro{ 
+    font-size: 20px;
+  font-family: "Plus Jakarta Sans";
+  font-weight:1px ;
+  font-style: normal;
+  text-align: center;
+}
+.id { font-size: 20px;
+  font-family: "Plus Jakarta Sans";
+  font-weight:1px ;
+  font-style: normal; }
+
+section {text-align: center;
+    font-family: "Plus Jakarta Sans",sans-serif
+  }
+
+  .sectionin{
+      font-family: "Plus Jakarta Sans", sans-serif;
+  font-weight: 600;
+  font-style: italic;
+}
+  
+  
+
+.alert{ font-size: 20px;
+  font-weight: 4px;
+color: rgb(253, 155, 157);
+}
+
+.pesto {
+  display: block;
+  margin: auto;
+   width: 30%;
+  height: 30%;
+  transition: 2s;
+}
+.pesto:hover{ transform: scale(2);
+  letter-spacing: 4.5cap;
+
+
+}
+
+
+
+.def{ font-size: 25px;
+color: bisque;
+line-height: 2.5cap;
+border: 10px solid rgb(156, 154, 193);
+border-style: dotted;
+margin: auto;
+padding: 20px;
+max-width: 500px;}
+
+p{ font-size: 20px;
+}
+.wacth{ color: #ff818e;
+font-style: italic;
+font-weight:20cap;
+transform: scale(2);
+}
+.wacth:hover{ 
+  letter-spacing: 5cap;
+transition: -1px; 
+}
+.com{color: #95db93;
+font-weight:20cap;
+transform: scale(2);
+}
+.com:hover{
+transition: 3px; 
+letter-spacing: -1cap;
+font-size: 80px;
+}
+
+.sp{color: #8cbef0;
+font-weight:20cap;
+transform: scale(2);
+transition:all 8s ease; 
+
+
+}
+
+.sp:hover{
+letter-spacing: 0.3cap;
+font-size: 30px;
+font-style: italic;
+
+
+
+}
+.ex{color: #ff0d0d;
+font-weight:20cap;
+transform: scale(2);
+}
+
+.ex:hover{transition: 3px; 
+letter-spacing: 6cap;
+font-size: 60px;
+font-weight: 800;
+
+
+
+}
+.chop{ color: #8181ff;
+font-style: italic;
+font-weight:20cap;
+transform: scale(4);
+}
+
+
+.chop:hover{letter-spacing: 5cap;
+transition: 3px; ;
+
+
+
+
+}
+
+
+
+
+.steps{ text-align: center;
+  font-family: "Plus Jakarta Sans";
+ font-size: 44px;
+color: rgb(234, 247, 193);
+-webkit-text-stroke: 1px pink;
+
+
+}
+
+.steps-list{
+  line-height: 1.9;
+    font-size: 20px;
+    color: beige;
+ padding: 0 80px;
+  max-width: 1200px;
+  margin: 0 auto;
+ 
+    
+}
+.steps-list li{ margin-bottom: 25px;
+  padding-left: 15px;
+  
+  
+
+}
+.tip{ line-height: 40px;
+    font-size: 20px;
+    color: beige;
+    display: grid;
+  grid-template-columns: 400px 8fr;
+  gap: 60px;
+  max-width: 1200px;}
+
+.section-title{ font-size: 60px;
+  font-family: "Plus Jakarta Sans";
+  font-style: normal;
+color: rgb(163, 184, 230);
+
+}
+.subhead{ font-size: 35px;
+  font-family: "Plus Jakarta Sans";
+  font-style: normal;
+color: rgb(233, 246, 190);}
+
+
+
+#ingredients{ font-size: 35px;
+  font-family: "Plus Jakarta Sans";
+  font-weight:100;
+color: rgb(132, 170, 253);
+-webkit-text-stroke: 1px pink;
+}
+#ingredients:hover{font-size: 90px;
+  transition: 3s;
+  letter-spacing: 4cap;
+  display: block;
+}
+
+
+
+
+
+
+
+
+.note{ font-size: 35px;
+  font-family: "Plus Jakarta Sans";
+  font-style: normal;
+color: rgb(255, 165, 192);}
+
+.notesp{ font-size: 25px;
+  font-family: "Plus Jakarta Sans";
+  font-style: normal;
+color: rgb(132, 170, 253);}
+
+.notesub{ font-size: 25px;
+  font-family: "Plus Jakarta Sans";
+  font-style: normal;
+color: rgb(186, 227, 153);
+
+
+}
+
+.link{ font-size: 25px;
+  font-family: "Plus Jakarta Sans";
+color: rgb(172, 161, 177);
+text-align: center;
+text-decoration: none;
+
+}
+@media (max-width:600px){
+
+ body{
+        background-color: #231d42c5;
+    }
+
+}
